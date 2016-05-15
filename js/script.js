@@ -18,19 +18,19 @@ function trackUsed() {
   if (counter === quotes.length) {
      usedRandomNumbers.length = 0;
      counter = 0;
-  };
-};
+  }
+}
 
 // this code will randomly change the background colour
 // first, this function creates random values
 function rgbRandom() {
   return Math.floor(Math.random() * 256);
-};
+}
 // next, create string and add to html
 function colourChange() {
   colour = 'rgb(' + rgbRandom() + ',' + rgbRandom() + ',' + rgbRandom() + ')';
   document.getElementById("colour").style.backgroundColor = colour;
-};
+}
 
 
 /* this function will select a random quote object from array,
@@ -55,7 +55,7 @@ function getRandomQuote() {
           trackUsed();
           return quotes[random];
       }
-};
+}
 
 // this function adds the selected quote to the page and calls colourChange
 function printQuote() {
@@ -81,7 +81,7 @@ function printQuote() {
 
   // display final HTML string to the page
   document.getElementById('quote-box').innerHTML = string;
-};
+}
 
 // event listener to respond to clicks on the page
 // when user clicks anywhere on the page, the "printQuote" function is called

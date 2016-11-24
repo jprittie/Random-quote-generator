@@ -1,6 +1,8 @@
 ## Random Quote Generator
 *Project 1 of the Treehouse Full Stack JavaScript course*
 
+You can [view the project here.](http://jprittie.github.io/Random-quote-generator/)
+
 ###Project objectives:
 * Given basic HTML and CSS files, write JavaScript to create a random quote generator which will display a new quotation on the screen after a button on the page is clicked, as well as after a set interval elapses.
 * Randomly change the background color of the page when the quote changes.
